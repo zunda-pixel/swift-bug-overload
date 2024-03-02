@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "swift-bug-same-argument",
+  name: "swift-bug-overload",
   platforms: [
     .iOS(.v13),
     .macOS(.v11),
