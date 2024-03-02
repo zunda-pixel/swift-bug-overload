@@ -1,6 +1,6 @@
 ## Swift overload bug on Linux?
 
-This project can be compiled in macOS, but not Linux(Ubuntu).
+This project be build in macOS, but not Linux(Ubuntu).
 
 ```shell
 /swift-bug-same-argument/Sources/Library1/Library1.swift:25:27: error: instance method 'data(for:)' requires that 'HTTPRequest' conform to 'Request'
