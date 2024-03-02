@@ -21,6 +21,9 @@ extension URLSession {
       url: request.url,
       headerFields: request.headers
     )
+    
+    print(request)
+    
     return try await self.data(for: request)
   }
 }
